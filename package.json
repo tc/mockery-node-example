@@ -1,0 +1,25 @@
+{
+    "name": "mockery-node-example",
+    "description": "",
+    "version": "0.0.1",
+    "dependencies": {
+    },
+    "devDependencies": {
+        "mockery": "1.4.x"
+    },
+    "scripts": {
+        "test": "NODE_ENV=test mocha $(find test -name '*.js') --timeout 15000"
+    },
+    "author": "TC",
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "contributors": [
+        {
+            "name": "Tommy Chheng",
+            "twitter": "@tommychheng"
+        }
+    ]
+}
+
